@@ -1,0 +1,309 @@
+.myspecer {
+  flex: 1;
+}
+
+.image1 {
+  height: 100vh;
+}
+.carousel1{
+  padding-right: 20rem;
+}
+.carousel2{
+  padding-right: 9rem;
+}
+.h1 {
+  font-size: 5rem;
+  animation: text1;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  animation-duration: 20s;
+  animation-timing-function: steps(25, end);
+  animation-iteration-count: infinite;
+}
+@keyframes text1 {
+  0%, 50%, 50% {
+    width: 0;
+  }
+  10%, 10% {
+    width: 40rem;
+  }
+}
+@keyframes caret {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+
+
+
+.h11 {
+  font-size: 3rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.new {
+  position: relative;
+  width: 100%;
+
+}
+
+.image5 {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 3rem;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text {
+
+  color: rgb(8, 2, 2);
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.new:hover .image5 {
+  opacity: 0.3;
+
+}
+
+.new:hover .middle {
+  opacity: 1;
+}
+
+.bg {
+  background-color: rgb(0, 0, 0);
+}
+
+.image6 {
+  margin-left: 7rem;
+}
+
+.back1 {
+  background-image: url('./Screenshot\ 2023-04-19\ 194422.png');
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-position: center;
+  position: relative;
+}
+
+.back1::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(1, 1, 10, 0.678);
+}
+
+.z {
+  z-index: 5;
+  position: relative;
+  padding-left: 20rem;
+  padding-right: 15rem;
+  font-size: 20px;
+}
+
+.z1img {
+  z-index: 5;
+  position: relative;
+  padding-left: 34rem;
+  padding-right: 15rem;
+  font-size: 20px;
+}
+
+.z2 {
+  z-index: 5;
+  position: relative;
+  padding-left: 33rem;
+  font-size: 20px;
+}
+
+.z3 {
+  z-index: 5;
+  position: relative;
+  padding-left: 30rem;
+  font-size: 20px;
+}
+
+.p1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.plan {
+  padding-left: 9rem;
+}
+
+.btn {
+  margin-left: 7rem;
+}
+
+.new1 {
+  position: relative;
+  width: 100%;
+
+}
+
+.img11 {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.text1 {
+
+  color: rgb(8, 2, 2);
+  font-size: 16px;
+  padding: 32pxpx 32px;
+  padding-top: 5rem;
+}
+
+.new1:hover .img11 {
+  opacity: 0.3;
+
+}
+
+.new1:hover .middle {
+  opacity: 1;
+}
+
+.box {
+  box-shadow: 5px 10px #24134d;
+}
+
+.footer {
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #2b2828, #000000);
+  background: linear-gradient(to right, #1f1e1e, #0c0c0c);
+}
+a{
+  color: white;
+}
+ a:hover{
+   color: brown;
+}
+.btn3{
+  margin-left: 10rem;
+}
+.image12{
+  padding-left: 13rem;
+}
+
+@media screen and (max-width:768px) {
+  .back{
+    margin-top: 9rem;
+  }
+  .h11 {
+    font-size: x-large;
+    padding-right: 3rem;
+  }
+
+  .image1 {
+    height: 30vh;
+  }
+
+  .image5 {
+    height: 2px
+  }
+
+  .back1 {
+    height: 30vh;
+  }
+
+  .plan {
+    display: none;
+  }
+
+  .img5 {
+    height: 20vh;
+    padding-top: 5rem;
+  }
+  .navbar-toggler{
+    margin-top: 3rem;
+  }
+  .btn3 .btn{
+    display: none;
+  }
+  .right{
+    display: none;
+  }
+  .map{
+    display: none;
+  }
+  .form{
+    padding-top: 5rem;
+  }
+  .form-control{
+    width: 20rem;
+  }
+  .image12{
+    
+    height: 4rem;
+  }
+  .footer3{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .image0{
+    width: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 3rem;
+  }
+  .gallery a{
+    display: none;
+  }
+  .h6{
+    padding-left: 3rem;
+  }
+  .image01{
+    display: none;
+  }
+  .image12{
+    width: 30rem;
+  }
+  .image13{
+    margin-top: 5rem;
+  }
+  .image02{
+    margin-top: 5rem;
+  }
+  .z{
+    display: none;
+  }
+  .images{
+   padding-top: 5rem;
+  }
+}
